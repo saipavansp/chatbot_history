@@ -1,0 +1,7 @@
+streamlit~=1.42.1
+langchain-openai~=0.3.6
+langchain-core~=0.3.36
+langchain-community~=0.3.17
+langchain~=0.3.19
+python-dotenv~=1.0.1
+langchain-text-splitters~=0.3.6
