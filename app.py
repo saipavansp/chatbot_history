@@ -57,7 +57,7 @@ os.environ['HF_TOKEN'] = os.getenv("HF_TOKEN")
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 # 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 BFSI key
 # Use the provided Groq API key (hardcoded)
-GROQ_API_KEY = "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"
+GROQ_API_KEY = os.environ['Groq_API']=os.getenv("Groq_API")
 
 
 def initialize_llm(api_key: str, retries: int = 3) -> Optional[object]:
